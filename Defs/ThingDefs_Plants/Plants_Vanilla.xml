@@ -41,7 +41,7 @@
             <li>Hydroponic</li>
             <li>Decorative</li>
         </sowTags>
-        <purppose>Food</purpose>
+        <purpose>Food</purpose>
     </plant>
 
  <ThingDef ParentName="VanillaBase">
@@ -54,3 +54,5 @@
       <wildClusterWeight>80</wildClusterWeight>
     </plant>
   </ThingDef>
+
+</Defs>

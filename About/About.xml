@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModMetaData>
-    <packageId>salsalew.salsas-details</packageId>
-    <name>salsa's details</name>
-    <author>salsalew</author>
-    <modVersion>0.1</modVersion>
-    <supportedVersions>
-        <li>1.5</li>
-    </supportedVersions>
-    <description>This is the first mod in a series meant to add more small, cottage-y details to rimwold with items and furniture.</description>
+  <name>Salsa's Details</name>
+  <packageId>salsa.salsasdetails</packageId>
+  <author>salsalew</author>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <description>
+    A small set of decorative furniture and visual touches for a more beautiful colony life.
+  </description>
 </ModMetaData>
