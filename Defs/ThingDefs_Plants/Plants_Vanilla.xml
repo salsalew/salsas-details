@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"
+
+<Defs>
+
+<ThingDef ParentName="PlantBase" Name="VanillaBase" Abstract="True">
+    <statbases>
+        <MaxHitPoints>60</MaxHitPoints>
+        <Nutrition>0.2</Nutrition>
+    </statbases>
+    <graphicData>
+        <texPath>Items/Plants/Vanilla/MatureVanilla</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <plant>
+        <immatureGraphicPath>Items/Plants/Vanilla/ImmatureVanilla</immatureGraphicPath>
+        <growDays>8</growDays>
+        <dieIfLeafless>false</dieIfLeafless>
+        <harvestWork>400</harvestWork>
+        <harvestTag>Standard</harvestTag>
+        <harvestedThingDef>SDPlant_RawVanilla</harvestedThingDef>
+        <harvestYield>8</harvestYield>
+        <topWindExposure>0.1</topWindExposure>
+        <visualSizeRange>0.3~1.0</visualSizeRange>
+        <wild0rder>2</wild0rder>
+        <allowAutoCut>false</allowAutoCut>
+    </plant>
+</ThingDef>
+
+<ThingDef ParentName="VanillaBase">
+    <defName>SDPlant_Vanilla</defName>
+    <label>vanilla</label>
+    <description>A delicately blooming plant cultivated for both its decorative appeal and crafting uses. While it offers no nutritional value, colonists admire its elegant form and vibrant color.</description>
+    <plant>
+        <growDays>5</growDays>
+        <sowWork>250</sowWork>
+        <sowMinSkill>6</sowMinSkill>
+        <sowTags>
+            <li>Ground</li>
+            <li>Hydroponic</li>
+            <li>Decorative</li>
+        </sowTags>
+        <purppose>Food</purpose>
+    </plant>
+
+ <ThingDef ParentName="VanillaBase">
+    <defName>SDPlant_VanillaWild</defName>
+    <label>wild vanilla</label>
+    <description>A naturally occurring ornamental plant with vivid blooms. Though untamed and uncultivated, its striking appearance makes it a favorite among foragers and artists alike.</description>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>80</wildClusterWeight>
+    </plant>
+  </ThingDef>
