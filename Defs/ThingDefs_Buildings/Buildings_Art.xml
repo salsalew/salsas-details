@@ -7,7 +7,7 @@
     <description>A small piece of material sculpted into the form of a standing bear. Perfect for tables.</description>
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
-      <texPath>Buildings/Art/TinyStatue/TinyStatue</texPath>
+      <texPath>Things/Buildings/Art/TinyStatues/TinyBear/TinyBear</texPath>
       <drawSize>(1.5,1.5)</drawSize>
     </graphicData>
    <altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -24,12 +24,10 @@
       <Beauty>35</Beauty>
       <WorkToMake>6000</WorkToMake>
     </statBases>
+    <placeWorkers Inherit="False"/>
     <comps Inherit="False">
       <li>
         <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-			<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
       </li>
     </comps>
     <stuffCategories>
@@ -39,3 +37,5 @@
     </stuffCategories>
     <costStuffCount>20</costStuffCount>
   </ThingDef>
+
+</Defs>
