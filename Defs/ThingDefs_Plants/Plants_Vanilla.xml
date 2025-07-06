@@ -13,8 +13,9 @@
       <Nutrition>0.05</Nutrition>
     </statBases>
     <graphicData>
-      <texPath>Things/Plants/Vanilla/MatureVanilla/Plant_MatureVanilla</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1,1</drawSize>
+      <drawRotated>false</drawRotated>
+      <randomRotAngle>false</randomRotAngle>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
     <selectable>true</selectable>
@@ -30,12 +31,14 @@
         <li>Decorative</li>
       </sowTags>
       <growMinGlow>0.3</growMinGlow>
-      <topWindExposure>0.1</topWindExposure>
+      <topWindExposure>0.0</topWindExposure>
       <growDays>1.5</growDays>
       <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
-      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <visualSizeRange>1.0~1.0</visualSizeRange>
       <wildOrder>1</wildOrder>
       <purpose>Beauty</purpose>
+      <graphicPath>Things/Plants/Vanilla/ImmatureVanilla</graphicPath>
+      <matureGraphicPath>Things/Plants/Vanilla/MatureVanilla</graphicPath>
     </plant>
   </ThingDef>
 
