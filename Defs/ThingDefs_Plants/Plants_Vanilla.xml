@@ -13,7 +13,7 @@
       <Nutrition>0.05</Nutrition>
     </statBases>
     <graphicData>
-      <texPath>Vanilla/MatureVanilla/Plant_MatureVanilla</texPath>
+      <texPath>Things/Plants/Vanilla/MatureVanilla/Plant_MatureVanilla</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>

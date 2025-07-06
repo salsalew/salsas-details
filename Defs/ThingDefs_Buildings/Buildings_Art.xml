@@ -2,8 +2,8 @@
 <Defs>
 
     <ThingDef ParentName="SculptureBase">
-    <defName>TinyBear</defName>
-    <label>tiny bear</label>
+    <defName>SD_TinyBearStatue</defName>
+    <label>tiny bear statue</label>
     <description>A small piece of material sculpted into the form of a standing bear. Perfect for tables.</description>
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
