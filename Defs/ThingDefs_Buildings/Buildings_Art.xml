@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="SculptureBase">
+    <defName>TinyBear</defName>
+    <label>tiny bear</label>
+    <description>A small piece of material sculpted into the form of a standing bear. Perfect for tables.</description>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Buildings/Art/TinyStatue/TinyStatue</texPath>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+   <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <building>
+            <isEdifice>false</isEdifice>
+        </building>
+    <clearBuildingArea>false</clearBuildingArea>
+    <fillPercent>0.1</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <Mass>.75</Mass>
+      <Beauty>35</Beauty>
+      <WorkToMake>6000</WorkToMake>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+			<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+      </li>
+    </comps>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<recipeMaker>
+		<researchPrerequisite>
+			<li>VFE_Res_Statues</li>
+		</researchPrerequisite>
+	</recipeMaker>
+    <costStuffCount>20</costStuffCount>
+  </ThingDef>
