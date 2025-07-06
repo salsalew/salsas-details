@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+ <ThingDef ParentName="TableGatherSpotBase">
+  <defName>SD_1x1Table</defName>
+  <label>cottage table (1x1)</label>
+  <description>A small, charming table crafted in the cottage style. Serves as a decorative and functional surface.</description>
+
+  <graphicData>
+    <graphicClass>Graphic_Multi</graphicClass>
+    <texPath>Things/Buildings/Furniture/Tables/1x1Table/SD_1x1Table</texPath>
+    <drawSize>(2,2)</drawSize>
+  </graphicData>
+
+  <altitudeLayer>Building</altitudeLayer>
+  <rotatable>true</rotatable>
+  <uiIconScale>.5</uiIconScale>
+
+  <statBases>
+    <MaxHitPoints>80</MaxHitPoints>
+    <WorkToBuild>1350</WorkToBuild>
+    <Mass>3</Mass>
+    <Flammability>1.0</Flammability>
+    <Beauty>70</Beauty>
+  </statBases>
+
+  <size>(1,1)</size>
+
+  <costList>
+    <WoodLog>35</WoodLog>
+    <Steel>10</Steel>
+  </costList>
+
+  <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+
+</ThingDef>
+
+</Defs>
