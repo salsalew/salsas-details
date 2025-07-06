@@ -13,9 +13,9 @@
       <Nutrition>0.05</Nutrition>
     </statBases>
     <graphicData>
+      <texPath>Things/Plants/Vanilla/MatureVanilla</texPath>
       <drawSize>1,1</drawSize>
       <drawRotated>false</drawRotated>
-      <randomRotAngle>false</randomRotAngle>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
     <selectable>true</selectable>
@@ -23,6 +23,7 @@
       <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
     </ingestible>
     <plant>
+      <immatureGraphicPath>Things/Plants/Vanilla/ImmatureVanilla</immatureGraphicPath>
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
       <sowWork>600</sowWork> <!-- 120 ticks per live day for beauty -->
@@ -33,12 +34,10 @@
       <growMinGlow>0.3</growMinGlow>
       <topWindExposure>0.0</topWindExposure>
       <growDays>1.5</growDays>
-      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <lifespanDaysPerGrowDays>7</lifespanDaysPerGrowDays>
       <visualSizeRange>1.0~1.0</visualSizeRange>
       <wildOrder>1</wildOrder>
       <purpose>Beauty</purpose>
-      <graphicPath>Things/Plants/Vanilla/ImmatureVanilla</graphicPath>
-      <matureGraphicPath>Things/Plants/Vanilla/MatureVanilla</graphicPath>
     </plant>
   </ThingDef>
 
