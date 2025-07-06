@@ -2,16 +2,16 @@
 <Defs>
 
 
-    <DesignationCategoryDef>
-        <DefName>DEFNAME_HERE</DefName>
-        <label>LABEL_HERE</label>
-        <description>DESCRIBE ME</description>
+    <designationCategoryDef>
+        <defName>SD_Details</defName>
+        <label>Details</label>
+        <description>Details and furniture from Salsa's Details.</description>
         <order>499</order>
         <specialDesignatorClasses>
             <li>Designator_Cancel</li>
             <li>Designator_Deconstruct</li>
         </specialDesignatorClasses>
-    </DesignationCategoryDef>
+    </designationCategoryDef>
 
 
 </Defs>

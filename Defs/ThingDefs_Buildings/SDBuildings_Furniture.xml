@@ -2,21 +2,35 @@
 
 <Defs>
 
- <ThingDef ParentName="TableGatherSpotBase">
+<ThingDef Name="SD_TableBase" Abstract="True">
+  <thingClass>Building</thingClass>
+  <category>Building</category>
+  <altitudeLayer>Building</altitudeLayer>
+  <passability>PassThroughOnly</passability>
+  <selectable>true</selectable>
+  <surfaceType>Item</surfaceType>
+  <useHitPoints>true</useHitPoints>
+  <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+  <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+  <comps>
+    <li Class="CompProperties_GatherSpot" /> <!-- Remove this if you don't want the gather spot feature -->
+  </comps>
+  <designationCategory>Details</designationCategory>
+</ThingDef>
+
+
+ <ThingDef ParentName="SD_TableBase">
   <defName>SD_1x1Table</defName>
   <label>cottage table (1x1)</label>
   <description>A small, charming table crafted in the cottage style. Serves as a decorative and functional surface.</description>
-
   <graphicData>
     <graphicClass>Graphic_Multi</graphicClass>
     <texPath>Things/Buildings/Furniture/Tables/1x1Table/SD_1x1Table</texPath>
     <drawSize>(2,2)</drawSize>
   </graphicData>
-
   <altitudeLayer>Building</altitudeLayer>
   <rotatable>true</rotatable>
   <uiIconScale>.5</uiIconScale>
-
   <statBases>
     <MaxHitPoints>80</MaxHitPoints>
     <WorkToBuild>1350</WorkToBuild>
@@ -24,16 +38,12 @@
     <Flammability>1.0</Flammability>
     <Beauty>70</Beauty>
   </statBases>
-
   <size>(1,1)</size>
-
   <costList>
     <WoodLog>35</WoodLog>
     <Steel>10</Steel>
   </costList>
-
   <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
-
 </ThingDef>
 
 </Defs>
