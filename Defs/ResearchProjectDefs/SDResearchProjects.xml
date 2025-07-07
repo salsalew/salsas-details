@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ResearchProjectDef>
+    <defName>SD_CottageFurniture</defName>
+    <label>cottage furniture</label>
+    <description>Craft intricate, decorative furniture ideal for cozy living spaces.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.30</researchViewY>
+    <prerequisites>
+      <li>ComplexFurniture</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  </Defs>
