@@ -113,6 +113,35 @@
 </ThingDef>
 
 
+<ThingDef ParentName="SD_TableBase">
+  <defName>SD_1x2Table</defName>
+  <label>cottage table (1x2)</label>
+  <description>A medium-sized, charming table crafted in the cottage style. Serves as a decorative and functional surface.</description>
+  <graphicData>
+    <graphicClass>Graphic_Multi</graphicClass>
+    <texPath>Things/Buildings/Furniture/Tables/1x2Table/SD_1x2Table</texPath>
+    <drawSize>(3,3)</drawSize>
+    </graphicData>
+<drawerType>MapMeshAndRealTime</drawerType>
+  <altitudeLayer>Building</altitudeLayer>
+  <rotatable>true</rotatable>
+  <uiIconScale>.5</uiIconScale>
+  <statBases>
+    <MaxHitPoints>80</MaxHitPoints>
+    <WorkToBuild>1500</WorkToBuild>
+    <Mass>5</Mass>
+    <Flammability>1.0</Flammability>
+    <Beauty>80</Beauty>
+  </statBases>
+  <size>(1,2)</size>
+  <costList>
+    <WoodLog>65</WoodLog>
+    <Steel>15</Steel>
+  </costList>
+  <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+</ThingDef>
+
+
 
 
 
@@ -142,6 +171,7 @@
       <WorkToBuild>400</WorkToBuild>
       <MaxHitPoints>20</MaxHitPoints>
       <Mass>1</Mass>
+      <Beauty>3</Beauty>
     </statBases>
     <uiOrder>2991</uiOrder>
     <passability>Standable</passability>
@@ -160,6 +190,8 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>5</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+    <shortCircuitInRain>false</shortCircuitInRain>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>5</glowRadius>
